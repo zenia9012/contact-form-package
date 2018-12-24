@@ -1,0 +1,19 @@
+{
+    "name": "yevhenii/contact",
+    "description": "Package has view, model, controller for contact form",
+    "type": "composer-plugin",
+    "authors": [
+        {
+            "name": "Yevhenii Riabyi",
+            "email": "zenia9012@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yevhenii\\Contact\\": "src/"
+        }
+    }
+}
