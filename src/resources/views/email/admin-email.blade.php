@@ -1,9 +1,9 @@
 @component('mail::message')
 # Introduction
 
-You have a message.
+You have a message from : {{ $name }}
+<br>
+Message: {{ $message }}
 
-
-Thanks,<br>
 {{ config('app.name') }}
 @endcomponent

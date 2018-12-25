@@ -18,7 +18,7 @@ class ContactController extends Controller
 		Contact::create($request->except('_token'));
 
 		if (config('contact.send_email')){
-			Mail::to(config('contact.send_email_to'))->send(new ContactMailable);
+			Mail::to(config('contact.send_email_to'))->send(new ContactMailable($request->name, $request->message));
 		}
 
 		return back();
