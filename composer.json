@@ -1,5 +1,5 @@
 {
-    "name": "yevhenii/contact",
+    "name": "yevhenii/contact-form",
     "description": "Package has view, model, controller for contact form",
     "type": "composer-plugin",
     "authors": [
